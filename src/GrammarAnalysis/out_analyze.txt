@@ -1,0 +1,1173 @@
+Status Stack now have : |0
+Char Stack now have : #
+Use Action->S1
+Status Stack push :1
+Char Stack push : f
+Status Stack now have : |0|1
+Char Stack now have : #f
+Status and Char Stack pop 1 element(s)
+Status Stack push 7
+Use Goto->r23
+Status Stack now have : |0|7
+Char Stack now have : #G
+Use Action->S219
+Status Stack push :219
+Char Stack push : y
+Status Stack now have : |0|7|219
+Char Stack now have : #Gy
+Use Action->S220
+Status Stack push :220
+Char Stack push : (
+Status Stack now have : |0|7|219|220
+Char Stack now have : #Gy(
+Use Action->S229
+Status Stack push :229
+Char Stack push : )
+Status Stack now have : |0|7|219|220|229
+Char Stack now have : #Gy()
+Use Action->S11
+Status Stack push :11
+Char Stack push : {
+Status Stack now have : |0|7|219|220|229|11
+Char Stack now have : #Gy(){
+Use Action->S169
+Status Stack push :169
+Char Stack push : a
+Status Stack now have : |0|7|219|220|229|11|169
+Char Stack now have : #Gy(){a
+Status and Char Stack pop 1 element(s)
+Status Stack push 170
+Use Goto->r18
+Status Stack now have : |0|7|219|220|229|11|170
+Char Stack now have : #Gy(){G
+Use Action->S171
+Status Stack push :171
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|170|171
+Char Stack now have : #Gy(){Gy
+Use Action->S176
+Status Stack push :176
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|170|171|176
+Char Stack now have : #Gy(){Gy;
+Status and Char Stack pop 3 element(s)
+Status Stack push 177
+Use Goto->r6
+Status Stack now have : |0|7|219|220|229|11|177
+Char Stack now have : #Gy(){E
+Status and Char Stack pop 1 element(s)
+Status Stack push 214
+Use Goto->r29
+Status Stack now have : |0|7|219|220|229|11|214
+Char Stack now have : #Gy(){L
+Use Action->S169
+Status Stack push :169
+Char Stack push : a
+Status Stack now have : |0|7|219|220|229|11|214|169
+Char Stack now have : #Gy(){La
+Status and Char Stack pop 1 element(s)
+Status Stack push 170
+Use Goto->r18
+Status Stack now have : |0|7|219|220|229|11|214|170
+Char Stack now have : #Gy(){LG
+Use Action->S171
+Status Stack push :171
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|170|171
+Char Stack now have : #Gy(){LGy
+Use Action->S176
+Status Stack push :176
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|170|171|176
+Char Stack now have : #Gy(){LGy;
+Status and Char Stack pop 3 element(s)
+Status Stack push 183
+Use Goto->r6
+Status Stack now have : |0|7|219|220|229|11|214|183
+Char Stack now have : #Gy(){LE
+Status and Char Stack pop 2 element(s)
+Status Stack push 214
+Use Goto->r28
+Status Stack now have : |0|7|219|220|229|11|214
+Char Stack now have : #Gy(){L
+Use Action->S169
+Status Stack push :169
+Char Stack push : a
+Status Stack now have : |0|7|219|220|229|11|214|169
+Char Stack now have : #Gy(){La
+Status and Char Stack pop 1 element(s)
+Status Stack push 170
+Use Goto->r18
+Status Stack now have : |0|7|219|220|229|11|214|170
+Char Stack now have : #Gy(){LG
+Use Action->S171
+Status Stack push :171
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|170|171
+Char Stack now have : #Gy(){LGy
+Use Action->S176
+Status Stack push :176
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|170|171|176
+Char Stack now have : #Gy(){LGy;
+Status and Char Stack pop 3 element(s)
+Status Stack push 183
+Use Goto->r6
+Status Stack now have : |0|7|219|220|229|11|214|183
+Char Stack now have : #Gy(){LE
+Status and Char Stack pop 2 element(s)
+Status Stack push 214
+Use Goto->r28
+Status Stack now have : |0|7|219|220|229|11|214
+Char Stack now have : #Gy(){L
+Use Action->S168
+Status Stack push :168
+Char Stack push : b
+Status Stack now have : |0|7|219|220|229|11|214|168
+Char Stack now have : #Gy(){Lb
+Status and Char Stack pop 1 element(s)
+Status Stack push 170
+Use Goto->r19
+Status Stack now have : |0|7|219|220|229|11|214|170
+Char Stack now have : #Gy(){LG
+Use Action->S171
+Status Stack push :171
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|170|171
+Char Stack now have : #Gy(){LGy
+Use Action->S176
+Status Stack push :176
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|170|171|176
+Char Stack now have : #Gy(){LGy;
+Status and Char Stack pop 3 element(s)
+Status Stack push 183
+Use Goto->r6
+Status Stack now have : |0|7|219|220|229|11|214|183
+Char Stack now have : #Gy(){LE
+Status and Char Stack pop 2 element(s)
+Status Stack push 214
+Use Goto->r28
+Status Stack now have : |0|7|219|220|229|11|214
+Char Stack now have : #Gy(){L
+Use Action->S165
+Status Stack push :165
+Char Stack push : e
+Status Stack now have : |0|7|219|220|229|11|214|165
+Char Stack now have : #Gy(){Le
+Status and Char Stack pop 1 element(s)
+Status Stack push 170
+Use Goto->r22
+Status Stack now have : |0|7|219|220|229|11|214|170
+Char Stack now have : #Gy(){LG
+Use Action->S171
+Status Stack push :171
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|170|171
+Char Stack now have : #Gy(){LGy
+Use Action->S176
+Status Stack push :176
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|170|171|176
+Char Stack now have : #Gy(){LGy;
+Status and Char Stack pop 3 element(s)
+Status Stack push 183
+Use Goto->r6
+Status Stack now have : |0|7|219|220|229|11|214|183
+Char Stack now have : #Gy(){LE
+Status and Char Stack pop 2 element(s)
+Status Stack push 214
+Use Goto->r28
+Status Stack now have : |0|7|219|220|229|11|214
+Char Stack now have : #Gy(){L
+Use Action->S167
+Status Stack push :167
+Char Stack push : c
+Status Stack now have : |0|7|219|220|229|11|214|167
+Char Stack now have : #Gy(){Lc
+Status and Char Stack pop 1 element(s)
+Status Stack push 170
+Use Goto->r20
+Status Stack now have : |0|7|219|220|229|11|214|170
+Char Stack now have : #Gy(){LG
+Use Action->S171
+Status Stack push :171
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|170|171
+Char Stack now have : #Gy(){LGy
+Use Action->S176
+Status Stack push :176
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|170|171|176
+Char Stack now have : #Gy(){LGy;
+Status and Char Stack pop 3 element(s)
+Status Stack push 183
+Use Goto->r6
+Status Stack now have : |0|7|219|220|229|11|214|183
+Char Stack now have : #Gy(){LE
+Status and Char Stack pop 2 element(s)
+Status Stack push 214
+Use Goto->r28
+Status Stack now have : |0|7|219|220|229|11|214
+Char Stack now have : #Gy(){L
+Use Action->S154
+Status Stack push :154
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|154
+Char Stack now have : #Gy(){Ly
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|96
+Char Stack now have : #Gy(){LT
+Use Action->S97
+Status Stack push :97
+Char Stack push : =
+Status Stack now have : |0|7|219|220|229|11|214|96|97
+Char Stack now have : #Gy(){LT=
+Use Action->S34
+Status Stack push :34
+Char Stack push : z
+Status Stack now have : |0|7|219|220|229|11|214|96|97|34
+Char Stack now have : #Gy(){LT=z
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r70
+Status Stack now have : |0|7|219|220|229|11|214|96|97|79
+Char Stack now have : #Gy(){LT=X
+Status and Char Stack pop 1 element(s)
+Status Stack push 80
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|96|97|80
+Char Stack now have : #Gy(){LT=W
+Status and Char Stack pop 1 element(s)
+Status Stack push 90
+Use Goto->r64
+Status Stack now have : |0|7|219|220|229|11|214|96|97|90
+Char Stack now have : #Gy(){LT=V
+Status and Char Stack pop 1 element(s)
+Status Stack push 95
+Use Goto->r61
+Status Stack now have : |0|7|219|220|229|11|214|96|97|95
+Char Stack now have : #Gy(){LT=U
+Status and Char Stack pop 1 element(s)
+Status Stack push 107
+Use Goto->r47
+Status Stack now have : |0|7|219|220|229|11|214|96|97|107
+Char Stack now have : #Gy(){LT=S
+Status and Char Stack pop 3 element(s)
+Status Stack push 160
+Use Goto->r46
+Status Stack now have : |0|7|219|220|229|11|214|160
+Char Stack now have : #Gy(){LS
+Use Action->S161
+Status Stack push :161
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|160|161
+Char Stack now have : #Gy(){LS;
+Status and Char Stack pop 2 element(s)
+Status Stack push 162
+Use Goto->r38
+Status Stack now have : |0|7|219|220|229|11|214|162
+Char Stack now have : #Gy(){LO
+Status and Char Stack pop 1 element(s)
+Status Stack push 163
+Use Goto->r32
+Status Stack now have : |0|7|219|220|229|11|214|163
+Char Stack now have : #Gy(){LN
+Status and Char Stack pop 1 element(s)
+Status Stack push 216
+Use Goto->r31
+Status Stack now have : |0|7|219|220|229|11|214|216
+Char Stack now have : #Gy(){LM
+Use Action->S154
+Status Stack push :154
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|154
+Char Stack now have : #Gy(){LMy
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|216|96
+Char Stack now have : #Gy(){LMT
+Use Action->S97
+Status Stack push :97
+Char Stack push : =
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97
+Char Stack now have : #Gy(){LMT=
+Use Action->S31
+Status Stack push :31
+Char Stack push : x
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|31
+Char Stack now have : #Gy(){LMT=x
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r73
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|79
+Char Stack now have : #Gy(){LMT=X
+Status and Char Stack pop 1 element(s)
+Status Stack push 80
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|80
+Char Stack now have : #Gy(){LMT=W
+Status and Char Stack pop 1 element(s)
+Status Stack push 90
+Use Goto->r64
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|90
+Char Stack now have : #Gy(){LMT=V
+Status and Char Stack pop 1 element(s)
+Status Stack push 95
+Use Goto->r61
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|95
+Char Stack now have : #Gy(){LMT=U
+Status and Char Stack pop 1 element(s)
+Status Stack push 107
+Use Goto->r47
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|107
+Char Stack now have : #Gy(){LMT=S
+Status and Char Stack pop 3 element(s)
+Status Stack push 160
+Use Goto->r46
+Status Stack now have : |0|7|219|220|229|11|214|216|160
+Char Stack now have : #Gy(){LMS
+Use Action->S161
+Status Stack push :161
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|216|160|161
+Char Stack now have : #Gy(){LMS;
+Status and Char Stack pop 2 element(s)
+Status Stack push 162
+Use Goto->r38
+Status Stack now have : |0|7|219|220|229|11|214|216|162
+Char Stack now have : #Gy(){LMO
+Status and Char Stack pop 1 element(s)
+Status Stack push 180
+Use Goto->r32
+Status Stack now have : |0|7|219|220|229|11|214|216|180
+Char Stack now have : #Gy(){LMN
+Status and Char Stack pop 2 element(s)
+Status Stack push 216
+Use Goto->r30
+Status Stack now have : |0|7|219|220|229|11|214|216
+Char Stack now have : #Gy(){LM
+Use Action->S154
+Status Stack push :154
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|154
+Char Stack now have : #Gy(){LMy
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|216|96
+Char Stack now have : #Gy(){LMT
+Use Action->S97
+Status Stack push :97
+Char Stack push : =
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97
+Char Stack now have : #Gy(){LMT=
+Use Action->S33
+Status Stack push :33
+Char Stack push : $
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|33
+Char Stack now have : #Gy(){LMT=$
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r71
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|79
+Char Stack now have : #Gy(){LMT=X
+Status and Char Stack pop 1 element(s)
+Status Stack push 80
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|80
+Char Stack now have : #Gy(){LMT=W
+Status and Char Stack pop 1 element(s)
+Status Stack push 90
+Use Goto->r64
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|90
+Char Stack now have : #Gy(){LMT=V
+Status and Char Stack pop 1 element(s)
+Status Stack push 95
+Use Goto->r61
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|95
+Char Stack now have : #Gy(){LMT=U
+Status and Char Stack pop 1 element(s)
+Status Stack push 107
+Use Goto->r47
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|107
+Char Stack now have : #Gy(){LMT=S
+Status and Char Stack pop 3 element(s)
+Status Stack push 160
+Use Goto->r46
+Status Stack now have : |0|7|219|220|229|11|214|216|160
+Char Stack now have : #Gy(){LMS
+Use Action->S161
+Status Stack push :161
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|216|160|161
+Char Stack now have : #Gy(){LMS;
+Status and Char Stack pop 2 element(s)
+Status Stack push 162
+Use Goto->r38
+Status Stack now have : |0|7|219|220|229|11|214|216|162
+Char Stack now have : #Gy(){LMO
+Status and Char Stack pop 1 element(s)
+Status Stack push 180
+Use Goto->r32
+Status Stack now have : |0|7|219|220|229|11|214|216|180
+Char Stack now have : #Gy(){LMN
+Status and Char Stack pop 2 element(s)
+Status Stack push 216
+Use Goto->r30
+Status Stack now have : |0|7|219|220|229|11|214|216
+Char Stack now have : #Gy(){LM
+Use Action->S154
+Status Stack push :154
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|154
+Char Stack now have : #Gy(){LMy
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|216|96
+Char Stack now have : #Gy(){LMT
+Use Action->S97
+Status Stack push :97
+Char Stack push : =
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97
+Char Stack now have : #Gy(){LMT=
+Use Action->S33
+Status Stack push :33
+Char Stack push : $
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|33
+Char Stack now have : #Gy(){LMT=$
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r71
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|79
+Char Stack now have : #Gy(){LMT=X
+Status and Char Stack pop 1 element(s)
+Status Stack push 80
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|80
+Char Stack now have : #Gy(){LMT=W
+Status and Char Stack pop 1 element(s)
+Status Stack push 90
+Use Goto->r64
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|90
+Char Stack now have : #Gy(){LMT=V
+Status and Char Stack pop 1 element(s)
+Status Stack push 95
+Use Goto->r61
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|95
+Char Stack now have : #Gy(){LMT=U
+Status and Char Stack pop 1 element(s)
+Status Stack push 107
+Use Goto->r47
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|107
+Char Stack now have : #Gy(){LMT=S
+Status and Char Stack pop 3 element(s)
+Status Stack push 160
+Use Goto->r46
+Status Stack now have : |0|7|219|220|229|11|214|216|160
+Char Stack now have : #Gy(){LMS
+Use Action->S161
+Status Stack push :161
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|216|160|161
+Char Stack now have : #Gy(){LMS;
+Status and Char Stack pop 2 element(s)
+Status Stack push 162
+Use Goto->r38
+Status Stack now have : |0|7|219|220|229|11|214|216|162
+Char Stack now have : #Gy(){LMO
+Status and Char Stack pop 1 element(s)
+Status Stack push 180
+Use Goto->r32
+Status Stack now have : |0|7|219|220|229|11|214|216|180
+Char Stack now have : #Gy(){LMN
+Status and Char Stack pop 2 element(s)
+Status Stack push 216
+Use Goto->r30
+Status Stack now have : |0|7|219|220|229|11|214|216
+Char Stack now have : #Gy(){LM
+Use Action->S154
+Status Stack push :154
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|154
+Char Stack now have : #Gy(){LMy
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|216|96
+Char Stack now have : #Gy(){LMT
+Use Action->S97
+Status Stack push :97
+Char Stack push : =
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97
+Char Stack now have : #Gy(){LMT=
+Use Action->S34
+Status Stack push :34
+Char Stack push : z
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|34
+Char Stack now have : #Gy(){LMT=z
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r70
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|79
+Char Stack now have : #Gy(){LMT=X
+Status and Char Stack pop 1 element(s)
+Status Stack push 80
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|80
+Char Stack now have : #Gy(){LMT=W
+Status and Char Stack pop 1 element(s)
+Status Stack push 90
+Use Goto->r64
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|90
+Char Stack now have : #Gy(){LMT=V
+Status and Char Stack pop 1 element(s)
+Status Stack push 95
+Use Goto->r61
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|95
+Char Stack now have : #Gy(){LMT=U
+Status and Char Stack pop 1 element(s)
+Status Stack push 107
+Use Goto->r47
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|107
+Char Stack now have : #Gy(){LMT=S
+Status and Char Stack pop 3 element(s)
+Status Stack push 160
+Use Goto->r46
+Status Stack now have : |0|7|219|220|229|11|214|216|160
+Char Stack now have : #Gy(){LMS
+Use Action->S161
+Status Stack push :161
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|216|160|161
+Char Stack now have : #Gy(){LMS;
+Status and Char Stack pop 2 element(s)
+Status Stack push 162
+Use Goto->r38
+Status Stack now have : |0|7|219|220|229|11|214|216|162
+Char Stack now have : #Gy(){LMO
+Status and Char Stack pop 1 element(s)
+Status Stack push 180
+Use Goto->r32
+Status Stack now have : |0|7|219|220|229|11|214|216|180
+Char Stack now have : #Gy(){LMN
+Status and Char Stack pop 2 element(s)
+Status Stack push 216
+Use Goto->r30
+Status Stack now have : |0|7|219|220|229|11|214|216
+Char Stack now have : #Gy(){LM
+Use Action->S154
+Status Stack push :154
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|154
+Char Stack now have : #Gy(){LMy
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|216|96
+Char Stack now have : #Gy(){LMT
+Use Action->S97
+Status Stack push :97
+Char Stack push : =
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97
+Char Stack now have : #Gy(){LMT=
+Use Action->S34
+Status Stack push :34
+Char Stack push : z
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|34
+Char Stack now have : #Gy(){LMT=z
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r70
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|79
+Char Stack now have : #Gy(){LMT=X
+Status and Char Stack pop 1 element(s)
+Status Stack push 80
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|80
+Char Stack now have : #Gy(){LMT=W
+Status and Char Stack pop 1 element(s)
+Status Stack push 90
+Use Goto->r64
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|90
+Char Stack now have : #Gy(){LMT=V
+Status and Char Stack pop 1 element(s)
+Status Stack push 95
+Use Goto->r61
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|95
+Char Stack now have : #Gy(){LMT=U
+Status and Char Stack pop 1 element(s)
+Status Stack push 107
+Use Goto->r47
+Status Stack now have : |0|7|219|220|229|11|214|216|96|97|107
+Char Stack now have : #Gy(){LMT=S
+Status and Char Stack pop 3 element(s)
+Status Stack push 160
+Use Goto->r46
+Status Stack now have : |0|7|219|220|229|11|214|216|160
+Char Stack now have : #Gy(){LMS
+Use Action->S161
+Status Stack push :161
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|216|160|161
+Char Stack now have : #Gy(){LMS;
+Status and Char Stack pop 2 element(s)
+Status Stack push 162
+Use Goto->r38
+Status Stack now have : |0|7|219|220|229|11|214|216|162
+Char Stack now have : #Gy(){LMO
+Status and Char Stack pop 1 element(s)
+Status Stack push 180
+Use Goto->r32
+Status Stack now have : |0|7|219|220|229|11|214|216|180
+Char Stack now have : #Gy(){LMN
+Status and Char Stack pop 2 element(s)
+Status Stack push 216
+Use Goto->r30
+Status Stack now have : |0|7|219|220|229|11|214|216
+Char Stack now have : #Gy(){LM
+Use Action->S115
+Status Stack push :115
+Char Stack push : g
+Status Stack now have : |0|7|219|220|229|11|214|216|115
+Char Stack now have : #Gy(){LMg
+Use Action->S116
+Status Stack push :116
+Char Stack push : (
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116
+Char Stack now have : #Gy(){LMg(
+Use Action->S118
+Status Stack push :118
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|118
+Char Stack now have : #Gy(){LMg(y
+Status and Char Stack pop 1 element(s)
+Status Stack push 119
+Use Goto->r59
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|119
+Char Stack now have : #Gy(){LMg(I
+Use Action->S128
+Status Stack push :128
+Char Stack push : <
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|119|128
+Char Stack now have : #Gy(){LMg(I<
+Use Action->S122
+Status Stack push :122
+Char Stack push : z
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|119|128|122
+Char Stack now have : #Gy(){LMg(I<z
+Status and Char Stack pop 1 element(s)
+Status Stack push 131
+Use Goto->r60
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|119|128|131
+Char Stack now have : #Gy(){LMg(I<I
+Status and Char Stack pop 3 element(s)
+Status Stack push 136
+Use Goto->r55
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136
+Char Stack now have : #Gy(){LMg(H
+Use Action->S143
+Status Stack push :143
+Char Stack push : )
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143
+Char Stack now have : #Gy(){LMg(H)
+Use Action->S151
+Status Stack push :151
+Char Stack push : {
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151
+Char Stack now have : #Gy(){LMg(H){
+Use Action->S145
+Status Stack push :145
+Char Stack push : t
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145
+Char Stack now have : #Gy(){LMg(H){t
+Use Action->S146
+Status Stack push :146
+Char Stack push : (
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146
+Char Stack now have : #Gy(){LMg(H){t(
+Use Action->S118
+Status Stack push :118
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|118
+Char Stack now have : #Gy(){LMg(H){t(y
+Status and Char Stack pop 1 element(s)
+Status Stack push 119
+Use Goto->r59
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|119
+Char Stack now have : #Gy(){LMg(H){t(I
+Use Action->S132
+Status Stack push :132
+Char Stack push : >
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|119|132
+Char Stack now have : #Gy(){LMg(H){t(I>
+Use Action->S123
+Status Stack push :123
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|119|132|123
+Char Stack now have : #Gy(){LMg(H){t(I>y
+Status and Char Stack pop 1 element(s)
+Status Stack push 133
+Use Goto->r59
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|119|132|133
+Char Stack now have : #Gy(){LMg(H){t(I>I
+Status and Char Stack pop 3 element(s)
+Status Stack push 147
+Use Goto->r54
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147
+Char Stack now have : #Gy(){LMg(H){t(H
+Use Action->S148
+Status Stack push :148
+Char Stack push : )
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148
+Char Stack now have : #Gy(){LMg(H){t(H)
+Use Action->S149
+Status Stack push :149
+Char Stack push : {
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149
+Char Stack now have : #Gy(){LMg(H){t(H){
+Use Action->S154
+Status Stack push :154
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|154
+Char Stack now have : #Gy(){LMg(H){t(H){y
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96
+Char Stack now have : #Gy(){LMg(H){t(H){T
+Use Action->S97
+Status Stack push :97
+Char Stack push : =
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97
+Char Stack now have : #Gy(){LMg(H){t(H){T=
+Use Action->S98
+Status Stack push :98
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|98
+Char Stack now have : #Gy(){LMg(H){t(H){T=y
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|96
+Char Stack now have : #Gy(){LMg(H){t(H){T=T
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r69
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|79
+Char Stack now have : #Gy(){LMg(H){t(H){T=X
+Status and Char Stack pop 1 element(s)
+Status Stack push 80
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|80
+Char Stack now have : #Gy(){LMg(H){t(H){T=W
+Status and Char Stack pop 1 element(s)
+Status Stack push 90
+Use Goto->r64
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|90
+Char Stack now have : #Gy(){LMg(H){t(H){T=V
+Use Action->S93
+Status Stack push :93
+Char Stack push : +
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|90|93
+Char Stack now have : #Gy(){LMg(H){t(H){T=V+
+Use Action->S34
+Status Stack push :34
+Char Stack push : z
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|90|93|34
+Char Stack now have : #Gy(){LMg(H){t(H){T=V+z
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r70
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|90|93|79
+Char Stack now have : #Gy(){LMg(H){t(H){T=V+X
+Status and Char Stack pop 1 element(s)
+Status Stack push 94
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|90|93|94
+Char Stack now have : #Gy(){LMg(H){t(H){T=V+W
+Status and Char Stack pop 3 element(s)
+Status Stack push 90
+Use Goto->r62
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|90
+Char Stack now have : #Gy(){LMg(H){t(H){T=V
+Status and Char Stack pop 1 element(s)
+Status Stack push 95
+Use Goto->r61
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|95
+Char Stack now have : #Gy(){LMg(H){t(H){T=U
+Status and Char Stack pop 1 element(s)
+Status Stack push 107
+Use Goto->r47
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|96|97|107
+Char Stack now have : #Gy(){LMg(H){t(H){T=S
+Status and Char Stack pop 3 element(s)
+Status Stack push 160
+Use Goto->r46
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|160
+Char Stack now have : #Gy(){LMg(H){t(H){S
+Use Action->S161
+Status Stack push :161
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|160|161
+Char Stack now have : #Gy(){LMg(H){t(H){S;
+Status and Char Stack pop 2 element(s)
+Status Stack push 162
+Use Goto->r38
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|162
+Char Stack now have : #Gy(){LMg(H){t(H){O
+Status and Char Stack pop 1 element(s)
+Status Stack push 163
+Use Goto->r32
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|163
+Char Stack now have : #Gy(){LMg(H){t(H){N
+Status and Char Stack pop 1 element(s)
+Status Stack push 188
+Use Goto->r31
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|188
+Char Stack now have : #Gy(){LMg(H){t(H){M
+Use Action->S189
+Status Stack push :189
+Char Stack push : }
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|149|188|189
+Char Stack now have : #Gy(){LMg(H){t(H){M}
+Status and Char Stack pop 3 element(s)
+Status Stack push 194
+Use Goto->r26
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194
+Char Stack now have : #Gy(){LMg(H){t(H)K
+Use Action->S195
+Status Stack push :195
+Char Stack push : u
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195
+Char Stack now have : #Gy(){LMg(H){t(H)Ku
+Use Action->S151
+Status Stack push :151
+Char Stack push : {
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{
+Use Action->S154
+Status Stack push :154
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|154
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{y
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T
+Use Action->S97
+Status Stack push :97
+Char Stack push : =
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=
+Use Action->S98
+Status Stack push :98
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|98
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=y
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|96
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=T
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r69
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|79
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=X
+Status and Char Stack pop 1 element(s)
+Status Stack push 80
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|80
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=W
+Status and Char Stack pop 1 element(s)
+Status Stack push 90
+Use Goto->r64
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|90
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=V
+Use Action->S93
+Status Stack push :93
+Char Stack push : +
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|90|93
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=V+
+Use Action->S34
+Status Stack push :34
+Char Stack push : z
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|90|93|34
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=V+z
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r70
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|90|93|79
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=V+X
+Status and Char Stack pop 1 element(s)
+Status Stack push 94
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|90|93|94
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=V+W
+Status and Char Stack pop 3 element(s)
+Status Stack push 90
+Use Goto->r62
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|90
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=V
+Status and Char Stack pop 1 element(s)
+Status Stack push 95
+Use Goto->r61
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|95
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=U
+Status and Char Stack pop 1 element(s)
+Status Stack push 107
+Use Goto->r47
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|96|97|107
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{T=S
+Status and Char Stack pop 3 element(s)
+Status Stack push 160
+Use Goto->r46
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|160
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{S
+Use Action->S161
+Status Stack push :161
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|160|161
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{S;
+Status and Char Stack pop 2 element(s)
+Status Stack push 162
+Use Goto->r38
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|162
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{O
+Status and Char Stack pop 1 element(s)
+Status Stack push 163
+Use Goto->r32
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|163
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{N
+Status and Char Stack pop 1 element(s)
+Status Stack push 179
+Use Goto->r31
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|179
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{M
+Use Action->S181
+Status Stack push :181
+Char Stack push : }
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|151|179|181
+Char Stack now have : #Gy(){LMg(H){t(H)Ku{M}
+Status and Char Stack pop 3 element(s)
+Status Stack push 196
+Use Goto->r26
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|145|146|147|148|194|195|196
+Char Stack now have : #Gy(){LMg(H){t(H)KuK
+Status and Char Stack pop 7 element(s)
+Status Stack push 150
+Use Goto->r41
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|150
+Char Stack now have : #Gy(){LMg(H){P
+Status and Char Stack pop 1 element(s)
+Status Stack push 163
+Use Goto->r34
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|163
+Char Stack now have : #Gy(){LMg(H){N
+Status and Char Stack pop 1 element(s)
+Status Stack push 179
+Use Goto->r31
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|179
+Char Stack now have : #Gy(){LMg(H){M
+Use Action->S181
+Status Stack push :181
+Char Stack push : }
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|151|179|181
+Char Stack now have : #Gy(){LMg(H){M}
+Status and Char Stack pop 3 element(s)
+Status Stack push 152
+Use Goto->r26
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|152
+Char Stack now have : #Gy(){LMg(H)K
+Status and Char Stack pop 1 element(s)
+Status Stack push 197
+Use Goto->r33
+Status Stack now have : |0|7|219|220|229|11|214|216|115|116|136|143|197
+Char Stack now have : #Gy(){LMg(H)N
+Status and Char Stack pop 5 element(s)
+Status Stack push 144
+Use Goto->r42
+Status Stack now have : |0|7|219|220|229|11|214|216|144
+Char Stack now have : #Gy(){LMQ
+Status and Char Stack pop 1 element(s)
+Status Stack push 180
+Use Goto->r35
+Status Stack now have : |0|7|219|220|229|11|214|216|180
+Char Stack now have : #Gy(){LMN
+Status and Char Stack pop 2 element(s)
+Status Stack push 216
+Use Goto->r30
+Status Stack now have : |0|7|219|220|229|11|214|216
+Char Stack now have : #Gy(){LM
+Use Action->S113
+Status Stack push :113
+Char Stack push : m
+Status Stack now have : |0|7|219|220|229|11|214|216|113
+Char Stack now have : #Gy(){LMm
+Use Action->S114
+Status Stack push :114
+Char Stack push : {
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114
+Char Stack now have : #Gy(){LMm{
+Use Action->S154
+Status Stack push :154
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|154
+Char Stack now have : #Gy(){LMm{y
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96
+Char Stack now have : #Gy(){LMm{T
+Use Action->S97
+Status Stack push :97
+Char Stack push : =
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97
+Char Stack now have : #Gy(){LMm{T=
+Use Action->S98
+Status Stack push :98
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|98
+Char Stack now have : #Gy(){LMm{T=y
+Status and Char Stack pop 1 element(s)
+Status Stack push 96
+Use Goto->r49
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|96
+Char Stack now have : #Gy(){LMm{T=T
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r69
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|79
+Char Stack now have : #Gy(){LMm{T=X
+Status and Char Stack pop 1 element(s)
+Status Stack push 80
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|80
+Char Stack now have : #Gy(){LMm{T=W
+Status and Char Stack pop 1 element(s)
+Status Stack push 90
+Use Goto->r64
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|90
+Char Stack now have : #Gy(){LMm{T=V
+Use Action->S93
+Status Stack push :93
+Char Stack push : +
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|90|93
+Char Stack now have : #Gy(){LMm{T=V+
+Use Action->S34
+Status Stack push :34
+Char Stack push : z
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|90|93|34
+Char Stack now have : #Gy(){LMm{T=V+z
+Status and Char Stack pop 1 element(s)
+Status Stack push 79
+Use Goto->r70
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|90|93|79
+Char Stack now have : #Gy(){LMm{T=V+X
+Status and Char Stack pop 1 element(s)
+Status Stack push 94
+Use Goto->r67
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|90|93|94
+Char Stack now have : #Gy(){LMm{T=V+W
+Status and Char Stack pop 3 element(s)
+Status Stack push 90
+Use Goto->r62
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|90
+Char Stack now have : #Gy(){LMm{T=V
+Status and Char Stack pop 1 element(s)
+Status Stack push 95
+Use Goto->r61
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|95
+Char Stack now have : #Gy(){LMm{T=U
+Status and Char Stack pop 1 element(s)
+Status Stack push 107
+Use Goto->r47
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|96|97|107
+Char Stack now have : #Gy(){LMm{T=S
+Status and Char Stack pop 3 element(s)
+Status Stack push 160
+Use Goto->r46
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|160
+Char Stack now have : #Gy(){LMm{S
+Use Action->S161
+Status Stack push :161
+Char Stack push : ;
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|160|161
+Char Stack now have : #Gy(){LMm{S;
+Status and Char Stack pop 2 element(s)
+Status Stack push 162
+Use Goto->r38
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|162
+Char Stack now have : #Gy(){LMm{O
+Status and Char Stack pop 1 element(s)
+Status Stack push 163
+Use Goto->r32
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|163
+Char Stack now have : #Gy(){LMm{N
+Status and Char Stack pop 1 element(s)
+Status Stack push 199
+Use Goto->r31
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|199
+Char Stack now have : #Gy(){LMm{M
+Use Action->S200
+Status Stack push :200
+Char Stack push : }
+Status Stack now have : |0|7|219|220|229|11|214|216|113|114|199|200
+Char Stack now have : #Gy(){LMm{M}
+Status and Char Stack pop 3 element(s)
+Status Stack push 205
+Use Goto->r26
+Status Stack now have : |0|7|219|220|229|11|214|216|113|205
+Char Stack now have : #Gy(){LMmK
+Use Action->S206
+Status Stack push :206
+Char Stack push : g
+Status Stack now have : |0|7|219|220|229|11|214|216|113|205|206
+Char Stack now have : #Gy(){LMmKg
+Use Action->S207
+Status Stack push :207
+Char Stack push : (
+Status Stack now have : |0|7|219|220|229|11|214|216|113|205|206|207
+Char Stack now have : #Gy(){LMmKg(
+Use Action->S118
+Status Stack push :118
+Char Stack push : y
+Status Stack now have : |0|7|219|220|229|11|214|216|113|205|206|207|118
+Char Stack now have : #Gy(){LMmKg(y
+Status and Char Stack pop 1 element(s)
+Status Stack push 119
+Use Goto->r59
+Status Stack now have : |0|7|219|220|229|11|214|216|113|205|206|207|119
+Char Stack now have : #Gy(){LMmKg(I
+Use Action->S128
+Status Stack push :128
+Char Stack push : <
+Status Stack now have : |0|7|219|220|229|11|214|216|113|205|206|207|119|128
+Char Stack now have : #Gy(){LMmKg(I<
+Use Action->S122
+Status Stack push :122
+Char Stack push : z
+Status Stack now have : |0|7|219|220|229|11|214|216|113|205|206|207|119|128|122
+Char Stack now have : #Gy(){LMmKg(I<z
+Status and Char Stack pop 1 element(s)
+Status Stack push 131
+Use Goto->r60
+Status Stack now have : |0|7|219|220|229|11|214|216|113|205|206|207|119|128|131
+Char Stack now have : #Gy(){LMmKg(I<I
+Status and Char Stack pop 3 element(s)
+Status Stack push 208
+Use Goto->r55
+Status Stack now have : |0|7|219|220|229|11|214|216|113|205|206|207|208
+Char Stack now have : #Gy(){LMmKg(H
+Use Action->S209
+Status Stack push :209
+Char Stack push : )
+Status Stack now have : |0|7|219|220|229|11|214|216|113|205|206|207|208|209
+Char Stack now have : #Gy(){LMmKg(H)
+Error!
