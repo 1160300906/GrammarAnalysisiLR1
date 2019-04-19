@@ -2,11 +2,11 @@ A->B
 B->BD
 B->D
 D->E
-D->Gs()K
 E->Gy;
 E->Gy[z];
 D->Gy()K
 D->Gy(C)K
+D->oy{L};
 C->C,Gy
 C->Gy
 Y->y()
@@ -21,6 +21,7 @@ G->c
 G->d
 G->e
 G->f
+G->oy
 K->{LM}
 K->{L}
 K->{M}

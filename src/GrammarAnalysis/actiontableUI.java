@@ -51,7 +51,7 @@ public class actiontableUI extends JFrame {
 		table=new JTable(model);
 		
 		add(new JScrollPane(table));
-	   setSize(1000,1000); 
+	   setSize(1000,700); 
 	   setLocationRelativeTo(null); 
 	   setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	   setVisible(true);

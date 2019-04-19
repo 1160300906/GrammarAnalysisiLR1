@@ -12,13 +12,16 @@ import java.util.Stack;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+
 public class closure {
 
-	//static Lab3 newt=new Lab3();
 	static String []ps=readG();
 	static String [][]psforfirst=transformGforFirst();
-	//static first first=new first();
-
+    static DefaultTableModel model=new DefaultTableModel();
 	public String LRtext;
 	public char expected;
 	public String getLRtext() {
@@ -41,6 +44,11 @@ public class closure {
 	public closure(String str,char end){
 		this.LRtext=str;
 		this.expected=end;
+	}
+
+	@Override
+	public String toString() {
+		return LRtext + ", " + expected;
 	}
 
 	static List <List <closure>> Ilist = new ArrayList<List <closure>>();
@@ -155,7 +163,6 @@ public class closure {
 	 * */
 
 	public static List <closure> GO(List <closure> li,char ch){
-		// get . char ,this char
 		List <closure> sonList=new ArrayList<closure>();
 		for(int i=0;i<li.size();i++){
 			if(li.get(i).LRtext.indexOf('.')+1!=li.get(i).LRtext.length()){
@@ -173,7 +180,6 @@ public class closure {
 
 		int len=sonList.size();
 		for(int k=0;k<len;k++){
-			//System.out.println(sonList.get(k).LRtext+","+sonList.get(k).expected);
 			sonList=closureset(sonList,sonList.get(k));
 		}
 		return sonList;
@@ -190,18 +196,18 @@ public class closure {
 	}
 	/*
 	 * end of GO*/
-
+   //语法分析的主函数
 	public String YFmain(String testsh) throws IOException{
-     //   String testsh="";
-	//	first.setPs(psforfirst);
 		String firstStr="";
 
 		String action_result="src/GrammarAnalysis/action_result.txt";
 		String goto_result="src/GrammarAnalysis/goto_result.txt";
-
+        String item_result="src/GrammarAnalysis/item_result.txt";
+		
 		BufferedWriter action_output=new BufferedWriter(new FileWriter(action_result));
 		BufferedWriter goto_output=new BufferedWriter(new FileWriter(goto_result));
-
+		BufferedWriter item_output=new BufferedWriter(new FileWriter(item_result));
+		
 		firstStr=ps[0].substring(0, ps[0].indexOf("->")+2)+'.'+ps[0].substring(ps[0].indexOf("->")+2,ps[0].length());
 		List <closure> list1 = new ArrayList<closure>();
 
@@ -211,7 +217,11 @@ public class closure {
 		GoList.add(new itemsGo(list1,0,-1,' '));
 
 		getAlllist(new itemsGo(list1,0,-1,' '));
-
+        
+		for(int i=0;i<GoList.size();i++) {
+			item_output.write(GoList.get(i).toString());
+		}
+		
 		List <action_table> lis=createtable(ps,GoList);
 		for(int wa=0;wa<lis.size();wa++){
 			action_output.write(String.format(GoList.get(wa).name+": "));
@@ -229,7 +239,17 @@ public class closure {
 		action_output.close();
 		goto_output.flush();
 		goto_output.close();
-		return LRanalyze(testsh,lis,lis2);
+		item_output.flush();
+		item_output.close();
+		String s=LRanalyze(testsh,lis,lis2);
+		JTable table=new JTable(model);
+		JFrame jFrame=new JFrame("分析表");
+		jFrame.add(new JScrollPane(table));
+		jFrame.setSize(1000,700); 
+		   jFrame.setLocationRelativeTo(null); 
+		   jFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		   jFrame.setVisible(true);
+		return s;
 	}
 
 	static int count=0;	
@@ -462,21 +482,18 @@ public class closure {
 		return res;
 	}
 	///end of first  thing
-	/*
-	 *    This is new job
-	 * */
 	static translate tran=new translate();
 	
 	@SuppressWarnings("resource")
 	public static String LRanalyze(String test,List <action_table> actiontab,List <goto_table> gototab) throws IOException{
-		System.out.println("-------------------Here   we   come   in    analyze-----------------------");
+	//	DefaultTableModel model=new DefaultTableModel();
+		model.setColumnIdentifiers(new Object[]{"状态栈","字符栈", "待分析句子", "动作"});
+		System.out.println("-------------------正在进行语法分析-----------------------");
 	
 		String output_an="src/GrammarAnalysis/out_analyze.txt";
 		String outsr="src/GrammarAnalysis/usewhat.txt";
-//		String outputpath2="analyzetable.txt";
 		BufferedWriter output=new BufferedWriter(new FileWriter(output_an));
 		BufferedWriter output2=new BufferedWriter(new FileWriter(outsr));
-//		BufferedWriter output3=new BufferedWriter(new FileWriter(outputpath2));
 		
 		Stack <Character> chStack = new Stack <Character> ();
 		Stack <Integer> statusStack = new Stack <Integer> ();
@@ -485,11 +502,9 @@ public class closure {
 		String tempStr=test+"#";
 		int ip=0;
 		String tmpuse;
-	//	output3.write("Status Stack now have  \t  Char Stack now have \t  LeftString       \t      action      \t");
-		while(true){
+			while(true){
 			output.write(String.format("Status Stack now have : "+putStack(statusStack))+System.getProperty("line.separator"));
 			output.write(String.format("Char Stack now have : "+putsStack(chStack))+System.getProperty("line.separator"));
-			
 			int topstatus=statusStack.peek();
 			if((tmpuse=find_in_action(actiontab,topstatus,tempStr.charAt(ip)))!=null){
 				if(tmpuse.charAt(0)=='S'){
@@ -500,7 +515,7 @@ public class closure {
 					else if(tmpuse.length()>2){
 						stmt=Integer.valueOf(tmpuse.substring(1,tmpuse.length()));
 					}
- 
+      model.addRow(new Object[]{putStack(statusStack),putsStack(chStack),tempStr.substring(ip,tempStr.length()),tmpuse});
 					output.write(String.format("Use Action->"+tmpuse)+System.getProperty("line.separator"));
 					statusStack.push(stmt);
 					chStack.push(tempStr.charAt(ip));
@@ -519,6 +534,7 @@ public class closure {
 					//newt.getUse(linenum);
 					output2.write(String.format(""+linenum+"	"+ps[linenum-1])+System.getProperty("line.separator"));
 					int length=ps[linenum-1].length()-3;
+		model.addRow(new Object[]{putStack(statusStack),putsStack(chStack),tempStr.substring(ip,tempStr.length()),tmpuse});
 					for(int k=0;k<length;k++){
 						chStack.pop();
 						statusStack.pop();
@@ -526,30 +542,37 @@ public class closure {
 					output.write(String.format("Status and Char Stack pop "+length+" element(s)")+System.getProperty("line.separator"));
 					int topstatus2=statusStack.peek();
 					chStack.push(ps[linenum-1].charAt(0));
+		
 					String tmpStr=find_in_goto(gototab,topstatus2,ps[linenum-1].charAt(0));
+		
 					if(tmpStr!=null){
+		model.addRow(new Object[]{putStack(statusStack),putsStack(chStack),tempStr.substring(ip,tempStr.length()),
+				"GOTO("+statusStack.peek()+","+chStack.peek()+")="+tmpStr});
 						statusStack.push(Integer.parseInt(tmpStr));
 						output.write(String.format("Status Stack push "+Integer.parseInt(tmpStr))+System.getProperty("line.separator"));
 					}
 					output.write(String.format("Use Goto->"+tmpuse)+System.getProperty("line.separator"));
+					
 				}else if(tmpuse.equals("acc")){
-					System.out.println("Have been accepted!");
+					//System.out.println("Have been accepted!");
 					output.write(String.format("Now Accepted!")+System.getProperty("line.separator"));
 					output2.write(String.format("1	"+ps[0])+System.getProperty("line.separator"));
 					output.flush();
 					output.close();
 					output2.flush();
 					output2.close();
+					model.addRow(new Object[]{putStack(statusStack),putsStack(chStack),tempStr.substring(ip,tempStr.length()),tmpuse});
 					//newt.showAllUse();
 					return "Have been accepted!";
 				}else if(tmpuse.equals("error")){
-					System.out.println("Error in "+tempStr.charAt(ip)+" character!");
+					System.out.println("Error in character:"+tempStr.charAt(ip));
 					output.write(String.format("Error!")+System.getProperty("line.separator"));
 					output.flush();
 					output.close();
+					model.addRow(new Object[]{putStack(statusStack),putsStack(chStack),tempStr.substring(ip,tempStr.length()),tmpuse});
 					if(tempStr.charAt(ip)=='#')
 						return "Error in the end!";
-					return "Error !\n"+tran.find_error(ip);
+					return tran.find_error(ip);
 				}
 			}
 		}

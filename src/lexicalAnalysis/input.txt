@@ -1,24 +1,36 @@
+struct Student{
+char name[30];
+float id;
+};
 void main(){
 int a;
 int e;
 int k;
+struct Student student;
 float b;
+float d;
 String c;
 char d;
 a=100;
 b=66.6;
+d=12e+4;
 c="sss";
 d='a';
-e=300;
+e=sum(a,b);
 k=1;
 while(a<200){
   if(e>a){
   a=a+1;
   }else{
   e=e+1;
+  b=a+k*b;
  } 
 }
 do{
 k=k+1;
-}while(k<10)
+}while(k<10);
 }
+/*求两个数的和*/
+int sum(int a,int b){
+    return a+b;
+ }

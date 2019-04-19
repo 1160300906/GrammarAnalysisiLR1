@@ -45,6 +45,14 @@ public class itemsGo {
 	public void setConnect(char connect) {
 		this.connect = connect;
 	}	
-	
+	@Override
+	public String toString() {
+		String string="";
+		string="[name=I"  + name + ", from=T" + from + ", connect=" + connect + "]\n";
+		for(int i=0;i<Iitem.size();i++) {
+			string=string+Iitem.get(i).toString()+"\n";
+		}
+		return string;
+	}
 }
 
